@@ -8,7 +8,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://anusornsriprom44:AMgxxhOKIHmlXUua@cluster0.bmiggf1.mongodb.net/sample_mflix/'),
+    MongooseModule.forRoot('mongodb+srv://anusornsriprom44:AMgxxhOKIHmlXUua@cluster0.bmiggf1.mongodb.net/sample_mflix'),
 
     // TypeOrmModule.forRoot({
     //   type: 'mongodb',
